@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ميرا | MIRA Store</title>
+<meta name="description" content="ميرا: ملابس وأحذية رجالية ونسائية من براندات أصلية. شحن مجاني فوق 300 ₪ واستبدال خلال 14 يوم.">
+<meta name="theme-color" content="#10282B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=El+Messiri:wght@500;700&family=Readex+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+<div class="ann" id="ann"><span id="annT"></span></div>
+<div id="pre"><div class="pl"><b><span style="animation-delay:.1s">M</span><span style="animation-delay:.22s">I</span><span style="animation-delay:.34s">R</span><span style="animation-delay:.46s">A</span></b><div class="bar"><i></i></div></div></div>
+<div id="sp"></div>
+
+<div class="promo" data-i18n-html="promo"></div>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="#top" class="logo">MIR<i>A</i></a>
+    <nav id="nav">
+      <ul>
+        <li><a href="#shop" data-f="all" data-i18n="nav_new"></a></li>
+        <li><a href="#shop" data-f="men" data-i18n="f_men"></a></li>
+        <li><a href="#shop" data-f="women" data-i18n="f_women"></a></li>
+        <li><a href="#shop" data-f="shoes" data-i18n="f_shoes"></a></li>
+        <li><a href="#shop" data-f="acc" data-i18n="f_acc"></a></li>
+        <li><a href="#shop" data-f="sale" class="hot" data-i18n="nav_sale"></a></li>
+        <li><a href="#brandsec" data-i18n="nav_brands"></a></li>
+        <li id="navVisit"><a href="#visit" data-i18n="nav_visit"></a></li>
+      </ul>
+    </nav>
+    <div class="tools">
+      <button class="ibtn" id="searchBtn" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+      <button class="ibtn" id="theme" aria-label="Theme"><svg class="moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg></button>
+      <button class="ibtn" id="lang" aria-label="Language">EN</button>
+      <button class="ibtn" id="cartBtn" aria-label="Cart">
+        <svg viewBox="0 0 24 24"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <span class="badge" id="badge">0</span>
+      </button>
+      <button class="ibtn burger" id="burger" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero hero2" id="hero2">
+    <div class="h2-bg" aria-hidden="true"><span>MIRA</span></div>
+    <div class="wrap h2-grid">
+      <div class="h2-copy">
+        <div class="h2-badge"><i></i><span data-i18n="h2_badge"></span></div>
+        <h1 class="display">
+          <span><em data-i18n="h1a"></em></span>
+          <span><em data-i18n="h1b"></em></span>
+          <span><em data-i18n="h1c"></em></span>
+        </h1>
+        <p data-i18n="hero_p"></p>
+        <div class="btns">
+          <a href="#shop" class="btn primary" data-i18n="cta1"></a>
+          <a href="#cats" class="btn ghost" data-i18n="cta2"></a>
+        </div>
+        <p class="h2-note" data-i18n="ann1"></p>
+        <div class="h2-tabs" id="h2Tabs"></div>
+      </div>
+      <div class="h2-stage" id="h2Stage">
+        <div class="h2-arch" id="h2Arch"></div>
+        <div id="h2Cards"></div>
+      </div>
+    </div>
+    <a href="#trustsec" class="h2-scroll" aria-label="Scroll"><span></span></a>
+  </section>
+
+  <div class="marquee" id="brands" aria-label="Brands">
+    <div class="track" id="track"></div>
+  </div>
+
+  <section class="trust" id="trustsec"><div class="wrap"><div class="tgrid"><div class="tcard rv"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><div><b data-i18n="t1"></b><small data-i18n="t1s"></small></div></div><div class="tcard rv"><svg viewBox="0 0 24 24"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg><div><b data-i18n="t2"></b><small data-i18n="t2s"></small></div></div><div class="tcard rv"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5l2 2M20 4v5h-5M20 12a8 8 0 0 1-14 5l-2-2M4 20v-5h5"/></svg><div><b data-i18n="t3"></b><small data-i18n="t3s"></small></div></div><div class="tcard rv"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><div><b data-i18n="t4"></b><small data-i18n="t4s"></small></div></div></div></div></section>
+
+  <section id="cats">
+    <div class="cats-scroller"><div class="cats-pin">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <h2 class="display" data-i18n="cats_t"></h2>
+        <p data-i18n="cats_p"></p>
+      </div>
+      <div class="cats">
+        <a href="#shop" class="cat c1 rv" data-f="women"><div class="imgbox"><img loading="lazy" src="images/1490481651871-ab68de25d43d.jpg" alt=""></div><div><h3 data-i18n="c_women"></h3><span data-i18n="c_women_s"></span></div><i class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a>
+        <a href="#shop" class="cat c2 rv" data-f="men"><div class="imgbox"><img loading="lazy" src="images/1507679799987-c73779587ccf.jpg" alt=""></div><div><h3 data-i18n="c_men"></h3><span data-i18n="c_men_s"></span></div><i class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a>
+        <a href="#shop" class="cat c3 rv" data-f="shoes"><div class="imgbox"><img loading="lazy" src="images/1549298916-b41d501d3772.jpg" alt=""></div><div><h3 data-i18n="c_shoes"></h3><span data-i18n="c_shoes_s"></span></div><i class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a>
+        <a href="#brands" class="cat c4 rv" data-f="all"><div class="imgbox"><img loading="lazy" src="images/1441986300917-64674bd600d8.jpg" alt=""></div><div><h3 data-i18n="c_brands"></h3><span data-i18n="c_brands_s"></span></div><i class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a>
+      </div>
+      <div class="cats-prog" aria-hidden="true"><i></i></div>
+    </div>
+    </div></div>
+  </section>
+
+  <section id="best" style="padding-bottom:1rem">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><h2 class="display" data-i18n="best_t"></h2><p data-i18n="best_p" style="margin-top:.5rem"></p></div>
+        <div class="bs-nav">
+          <button class="ibtn" data-bs="-1" aria-label="Prev"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+          <button class="ibtn" data-bs="1" aria-label="Next"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+        </div>
+      </div>
+      <div class="bs-track" id="bsTrack"></div>
+      <div class="bs-bar"><i id="bsFill"></i></div>
+    </div>
+  </section>
+
+  <section id="brandsec"><div class="wrap">
+      <div class="sec-head rv"><h2 class="display" data-i18n="brands_t"></h2><p data-i18n="brands_p"></p></div>
+      <div class="bgrid" id="bgrid"></div>
+    </div></section>
+
+  <section id="budget" style="padding-top:1rem"><div class="wrap">
+      <div class="sec-head rv"><h2 class="display" data-i18n="bud_t"></h2><p data-i18n="bud_p"></p></div>
+      <div class="budg">
+        <a href="#shop" class="bud rv" data-f="p:0-200"><em>→</em><small data-i18n="bud_s"></small><b data-i18n="bud_1"></b></a>
+        <a href="#shop" class="bud rv" data-f="p:200-400"><em>→</em><small data-i18n="bud_s"></small><b data-i18n="bud_2"></b></a>
+        <a href="#shop" class="bud rv" data-f="p:400-99999"><em>→</em><small data-i18n="bud_s"></small><b data-i18n="bud_3"></b></a>
+      </div></div></section>
+
+  <div class="band" aria-hidden="true"><div class="band-t"><span>MIRA · أناقة · ستايل · MIRA · أناقة · ستايل · MIRA · أناقة · ستايل · MIRA · أناقة · ستايل · </span></div></div>
+
+  <section id="shop" style="padding-top:1rem">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <h2 class="display" data-i18n="shop_t"></h2>
+        <div class="filters" id="filters"></div>
+      </div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section id="rcvsec" hidden style="padding:2rem 0 0"><div class="wrap"><div class="sec-head rv in"><h2 class="display" data-i18n="rcv_t"></h2></div><div class="rcv" id="rcvList"></div></div></section>
+
+  <section id="offer" style="padding-top:1rem">
+    <div class="wrap">
+      <div class="banner rv">
+        <div class="imgbox"><img loading="lazy" src="images/1483985988355-763728e1935b.jpg" alt=""></div>
+        <div class="in">
+          <h2 class="display" data-i18n="offer_t"></h2>
+          <p data-i18n="offer_p"></p>
+          <div class="count" id="count"></div>
+          <a href="#shop" class="btn primary" data-i18n="cta1"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="lookbook">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><h2 class="display" data-i18n="lk_t"></h2><p data-i18n="lk_p" style="margin-top:.5rem"></p></div>
+        <div class="filters" id="lkTabs"></div>
+      </div>
+      <div class="lk rv" id="lk"></div>
+    </div>
+  </section>
+
+  <section id="looks">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><h2 class="display" data-i18n="ig_t"></h2><p data-i18n="ig_p" style="margin-top:.5rem"></p></div>
+        <a class="btn ghost" href="https://instagram.com/" target="_blank" rel="noopener" data-i18n="ig_follow"></a>
+      </div>
+      <div class="ig" id="ig"></div>
+    </div>
+  </section>
+
+  <section id="reviews" style="padding-top:1rem">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <h2 class="display" data-i18n="rv_t"></h2>
+        <div class="rev-sum"><b class="display">4.9</b><div><div class="stars" id="sumStars"></div><small data-i18n="rv_sum"></small></div></div>
+      </div>
+      <div class="rev-slider" id="rvS"><div class="rev-track" id="rvT"></div></div>
+      <div class="rev-ctrl">
+        <button class="ibtn" id="rvPrev" aria-label="Prev"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+        <div class="dots" id="rvD"></div>
+        <button class="ibtn" id="rvNext" aria-label="Next"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+  </section>
+
+  <div class="band" aria-hidden="true"><div class="band-t"><span>MIRA · أناقة · ستايل · MIRA · أناقة · ستايل · MIRA · أناقة · ستايل · MIRA · أناقة · ستايل · </span></div></div>
+
+  <section id="about">
+    <div class="wrap about">
+      <div class="about-img rv">
+        <div class="imgbox about-main"><img loading="lazy" src="images/1556905055-8f358a7a47b2.jpg" alt=""></div>
+        <div class="imgbox about-sm"><img loading="lazy" src="images/1523381210434-271e8be1f52b.jpg" alt=""></div>
+      </div>
+      <div class="rv">
+        <h2 class="display" data-i18n="about_t"></h2>
+        <p data-i18n="about_p1"></p>
+        <p data-i18n="about_p2"></p>
+        <div class="stats">
+          <div class="stat"><b class="display"><span data-count="12000">0</span>+</b><small data-i18n="st_cust"></small></div>
+          <div class="stat"><b class="display"><span data-count="850">0</span>+</b><small data-i18n="st_prod"></small></div>
+          <div class="stat"><b class="display"><span data-count="40">0</span>+</b><small data-i18n="st_brand"></small></div>
+          <div class="stat"><b class="display"><span data-count="8">0</span></b><small data-i18n="st_year"></small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" style="padding-top:1rem">
+    <div class="wrap faq-grid">
+      <div class="rv">
+        <h2 class="display" data-i18n="faq_t"></h2>
+        <p data-i18n="faq_p" style="margin:.6rem 0 1.6rem;color:var(--muted)"></p>
+        <a class="btn primary" id="faqWa" href="#" target="_blank" rel="noopener" data-i18n="faq_cta"></a>
+      </div>
+      <div class="faq rv" id="faqList"></div>
+    </div>
+  </section>
+
+  <section style="padding-top:1rem">
+    <div class="wrap feats">
+      <div class="feat rv"><svg viewBox="0 0 24 24"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg><h4 data-i18n="f1"></h4><p data-i18n="f1p"></p></div>
+      <div class="feat rv"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5l2 2M20 12a8 8 0 0 1-14 5l-2-2M20 4v5h-5M4 20v-5h5"/></svg><h4 data-i18n="f2"></h4><p data-i18n="f2p"></p></div>
+      <div class="feat rv"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg><h4 data-i18n="f3"></h4><p data-i18n="f3p"></p></div>
+      <div class="feat rv"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4z"/></svg><h4 data-i18n="f4"></h4><p data-i18n="f4p"></p></div>
+    </div>
+  </section>
+
+  <section id="visit" style="padding-top:1rem">
+    <div class="wrap">
+      <div class="sec-head rv"><h2 class="display" data-i18n="vs_t"></h2><p data-i18n="vs_p"></p></div>
+      <div class="visit rv">
+        <div class="visit-info">
+          <div class="open-badge" id="openNow" aria-live="polite"></div>
+          <h3 class="display" data-i18n="vs_hours"></h3>
+          <ul class="hours" id="hours"></ul>
+          <div class="vrow"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.500C5 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/></svg><div><small data-i18n="vs_addr"></small><b id="vAddr"></b></div></div>
+          <div class="vrow"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><div><small data-i18n="vs_phone"></small><b id="vPhone" dir="ltr" style="display:inline-block"></b></div></div>
+          <div class="visit-act">
+            <a class="btn primary" id="vDir" target="_blank" rel="noopener" data-i18n="vs_dir"></a>
+            <a class="btn ghost" id="vCall" data-i18n="vs_call"></a>
+          </div>
+        </div>
+        <div class="map"><iframe id="vMap" title="Map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="padding-bottom:0">
+    <div class="wrap">
+      <div class="news rv">
+        <div><h2 class="display" data-i18n="news_t"></h2><p data-i18n="news_p" style="opacity:.75"></p></div>
+        <form id="nf"><input type="email" required data-i18n-ph="email"><button class="btn primary" data-i18n="join"></button></form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div><div class="logo">MIR<i>A</i></div><p style="color:var(--muted);max-width:32ch;margin-top:.8rem" data-i18n="foot_p"></p></div>
+      <div><h5 data-i18n="c_women"></h5><ul><li><a href="#shop" data-f="women" data-i18n="dresses"></a></li><li><a href="#shop" data-f="shoes" data-i18n="c_shoes"></a></li></ul></div>
+      <div><h5 data-i18n="c_men"></h5><ul><li><a href="#shop" data-f="men" data-i18n="jackets"></a></li><li><a href="#shop" data-f="shoes" data-i18n="c_shoes"></a></li></ul></div>
+      <div><h5 data-i18n="nav_contact"></h5><ul><li><bdi>+970 59 000 0000</bdi></li><li>hello@mira-store.com</li><li data-i18n="city"></li><li><a href="#about" data-i18n="nav_about"></a></li><li><a href="#contact" data-i18n="nav_contact"></a></li></ul></div>
+    </div>
+    <p class="copy">© 2026 MIRA. <span data-i18n="rights"></span></p>
+  </div>
+<div class="wrap" style="margin-top:1.5rem"><div class="pay" aria-label="Payment"><span>VISA</span><span>MASTERCARD</span><span>APPLE PAY</span><span>PAYPAL</span><span data-i18n="cod"></span></div></div>
+  <div class="f-mega" aria-hidden="true">MIRA</div>
+</footer>
+
+<div class="overlay" id="ov"></div>
+<aside class="drawer" id="drawer" aria-label="Cart">
+  <header><h3 class="display" data-i18n="cart"></h3><button class="ibtn" id="closeCart" aria-label="Close">✕</button></header>
+  <div class="items" id="items"></div>
+  <div class="ship" id="ship"></div>
+  <div class="dfoot"><div class="tot"><span data-i18n="total"></span><span id="total">0</span></div><button class="btn primary" id="checkout" data-i18n="checkout"></button></div>
+</aside>
+
+<button class="chat-fab" id="fab" aria-label="Chat"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg></button>
+<div class="chat" id="chat" role="dialog" aria-label="Chat">
+  <div class="chat-h"><div class="av">M</div><div><b data-i18n="chat_name"></b><small data-i18n="chat_status"></small></div><button id="closeChat" aria-label="Close">✕</button></div>
+  <div class="msgs" id="msgs"></div>
+  <div class="quicks" id="quicks"></div>
+  <form id="cf"><input id="ci" autocomplete="off" data-i18n-ph="chat_ph"><button aria-label="Send"><svg viewBox="0 0 24 24"><path d="M4 12l16-8-6 16-3-7z"/></svg></button></form>
+</div>
+<div class="sr" id="sr" role="dialog" aria-label="Search"><div class="wrap sr-in">
+  <div class="sr-box"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="si" autocomplete="off" data-i18n-ph="s_ph"><button class="ibtn" id="sx" aria-label="Close">✕</button></div>
+  <div class="sr-res" id="sres"></div>
+</div></div>
+<div class="qv" id="qv" role="dialog" aria-modal="true"><div class="qv-bg"></div><div class="qv-box" id="qvbox"></div></div>
+<div class="qv" id="lb" role="dialog" aria-modal="true"><div class="qv-bg"></div><div class="qv-box lb-box" id="lbbox"></div></div>
+<a class="wa" id="wa" href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 3 6.500 6.500 6.500l1-1.500-2-1-1 .8c-1-.4-2-1.400-2.400-2.400l.8-1-1-2z"/></svg></a>
+<button id="toTop" aria-label="Top"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<div class="gm" id="bm"><div class="gm-box" id="bmbox"></div></div>
+<div class="gm" id="v3"><div class="gm-box v3box" id="v3box"></div></div>
+<div class="co" id="co"><div class="co-box" id="cobox"></div></div>
+<div class="toast" id="toast"></div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+<script>/* failsafe: never leave the loader covering the page (e.g. in sandboxed previews) */
+setTimeout(function(){var p=document.getElementById('pre');if(p){p.style.display='none'}document.body.classList.remove('loading')},5000);</script>
+</body>
+</html>
